@@ -1,0 +1,61 @@
+<html>
+    <title>Contact Us</title>
+    <meta name="viewport" content="width=display-width,initial-scale=0.1"><!--decalaration of view port-->
+    <meta charset="UTF-8">
+    <!--setting the style like background color for navbar,body-->
+    <style>
+            body{
+                margin: 0;
+                font-family: 'Times New Roman', Times, serif;
+                background-color: lightblue;
+            }
+            .topnav{
+                overflow: hidden;
+                background-color: black;
+            }
+            .topnav a{
+                float: left;
+                color: greenyellow;
+                text-align: center;
+                padding:13px 15px;
+                font-size: 15px ;
+            }
+            .topnav a:hover{
+                background-color: blue;
+                color:wheat;
+            }
+            .profile{
+                text-align: center;
+                font-size: 40px;
+                font-style: inherit;
+                background: aqua;
+            }
+            .form{
+                text-align: center;
+            }
+        </style>
+        <body>
+            <header class="profile">My Profile</header>
+            <div class="topnav">
+                <a href="home.html">Home</a>
+                <a href="education.html">Qualification</a>
+            </div>
+            <br>
+            <form class="form"><!--usage of form tag for contact page-->
+                <!--textbox to enter firstname-->
+                <b>FirstName:</b>
+                <br><input type="text" name="Firstname" value="firstname">
+                <br><br>
+                <!--textbox to enter lastname-->
+                <b>LastName:</b>
+                <br><input type="text" name="Lastname" value="lastname">
+                <br><br>
+                <!--textarea to enter message-->
+                <b>Message:</b>
+                <br><textarea rows="6" cols="50">enter message</textarea>
+                <br><br>
+                <!--submit button-->
+                <input type="submit" value="submit">
+            </form>
+        </body>
+</html>
